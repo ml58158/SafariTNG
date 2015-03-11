@@ -19,8 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.webView.delegate = self;
+    [self goToURLString:@"http://www.mobilemakers.co"];
+     self.webView.delegate = self;
 }
 
 -(void)goToURLString:(NSString *)string {
