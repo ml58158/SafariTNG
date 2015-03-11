@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		C486E2611AB09CB9007547CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C486E2601AB09CB9007547CB /* main.m */; };
 		C486E2641AB09CB9007547CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C486E2631AB09CB9007547CB /* AppDelegate.m */; };
-		C486E2671AB09CB9007547CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C486E2661AB09CB9007547CB /* ViewController.m */; };
 		C486E26A1AB09CB9007547CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C486E2681AB09CB9007547CB /* Main.storyboard */; };
 		C486E26C1AB09CB9007547CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C486E26B1AB09CB9007547CB /* Images.xcassets */; };
 		C486E26F1AB09CB9007547CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C486E26D1AB09CB9007547CB /* LaunchScreen.xib */; };
 		C486E27B1AB09CB9007547CB /* SafariTNGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486E27A1AB09CB9007547CB /* SafariTNGTests.m */; };
+		C486E2861AB09CE3007547CB /* InternetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C486E2851AB09CE3007547CB /* InternetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		C486E2601AB09CB9007547CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C486E2621AB09CB9007547CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C486E2631AB09CB9007547CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C486E2651AB09CB9007547CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C486E2661AB09CB9007547CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C486E2691AB09CB9007547CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C486E26B1AB09CB9007547CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C486E26E1AB09CB9007547CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C486E2741AB09CB9007547CB /* SafariTNGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariTNGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486E2791AB09CB9007547CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C486E27A1AB09CB9007547CB /* SafariTNGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariTNGTests.m; sourceTree = "<group>"; };
+		C486E2841AB09CE3007547CB /* InternetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InternetViewController.h; path = ../InternetViewController.h; sourceTree = "<group>"; };
+		C486E2851AB09CE3007547CB /* InternetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InternetViewController.m; path = ../InternetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,10 @@
 		C486E25D1AB09CB9007547CB /* SafariTNG */ = {
 			isa = PBXGroup;
 			children = (
+				C486E2841AB09CE3007547CB /* InternetViewController.h */,
+				C486E2851AB09CE3007547CB /* InternetViewController.m */,
 				C486E2621AB09CB9007547CB /* AppDelegate.h */,
 				C486E2631AB09CB9007547CB /* AppDelegate.m */,
-				C486E2651AB09CB9007547CB /* ViewController.h */,
-				C486E2661AB09CB9007547CB /* ViewController.m */,
 				C486E2681AB09CB9007547CB /* Main.storyboard */,
 				C486E26B1AB09CB9007547CB /* Images.xcassets */,
 				C486E26D1AB09CB9007547CB /* LaunchScreen.xib */,
@@ -219,8 +219,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486E2671AB09CB9007547CB /* ViewController.m in Sources */,
 				C486E2641AB09CB9007547CB /* AppDelegate.m in Sources */,
+				C486E2861AB09CE3007547CB /* InternetViewController.m in Sources */,
 				C486E2611AB09CB9007547CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
